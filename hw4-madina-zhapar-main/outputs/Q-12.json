@@ -1,0 +1,109 @@
+[
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Harrowfield",
+      "field": "budget"
+    },
+    "result": {
+      "district": "Harrowfield",
+      "field": "budget",
+      "value": 16021.7,
+      "source": "NR-07"
+    },
+    "seconds": 4.6e-05,
+    "prompt_tokens": 566,
+    "completion_tokens": 268
+  },
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Harrowfield",
+      "field": "pupils"
+    },
+    "result": {
+      "district": "Harrowfield",
+      "field": "pupils",
+      "value": 13904,
+      "source": "NR-07"
+    },
+    "seconds": 9.3e-05,
+    "prompt_tokens": 566,
+    "completion_tokens": 268
+  },
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Tarnvale",
+      "field": "budget"
+    },
+    "result": {
+      "district": "Tarnvale",
+      "field": "budget",
+      "value": 12960.3,
+      "source": "NR-03"
+    },
+    "seconds": 2.1e-05,
+    "prompt_tokens": 566,
+    "completion_tokens": 268
+  },
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Tarnvale",
+      "field": "pupils"
+    },
+    "result": {
+      "district": "Tarnvale",
+      "field": "pupils",
+      "value": 10652,
+      "source": "NR-03"
+    },
+    "seconds": 1.9e-05,
+    "prompt_tokens": 566,
+    "completion_tokens": 268
+  },
+  {
+    "round": 2,
+    "tool": "calculate",
+    "arguments": {
+      "expression": "16021.7 / 13904"
+    },
+    "result": {
+      "result": 1.1523086881472957
+    },
+    "seconds": 7.7e-05,
+    "prompt_tokens": 995,
+    "completion_tokens": 208
+  },
+  {
+    "round": 2,
+    "tool": "calculate",
+    "arguments": {
+      "expression": "12960.3 / 10652"
+    },
+    "result": {
+      "result": 1.2167010889973713
+    },
+    "seconds": 2.8e-05,
+    "prompt_tokens": 995,
+    "completion_tokens": 208
+  },
+  {
+    "round": 2,
+    "tool": "calculate",
+    "arguments": {
+      "expression": "(16021.7 / 13904) - (12960.3 / 10652)"
+    },
+    "result": {
+      "result": -0.06439240085007558
+    },
+    "seconds": 6.4e-05,
+    "prompt_tokens": 995,
+    "completion_tokens": 208
+  }
+]

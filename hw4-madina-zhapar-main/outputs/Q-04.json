@@ -1,0 +1,109 @@
+[
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Ashgrove",
+      "field": "pupils"
+    },
+    "result": {
+      "district": "Ashgrove",
+      "field": "pupils",
+      "value": 8837,
+      "source": "NR-10"
+    },
+    "seconds": 0.000216,
+    "prompt_tokens": 563,
+    "completion_tokens": 308
+  },
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Ashgrove",
+      "field": "schools"
+    },
+    "result": {
+      "district": "Ashgrove",
+      "field": "schools",
+      "value": 24,
+      "source": "NR-10"
+    },
+    "seconds": 0.000121,
+    "prompt_tokens": 563,
+    "completion_tokens": 308
+  },
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Millbrook",
+      "field": "pupils"
+    },
+    "result": {
+      "district": "Millbrook",
+      "field": "pupils",
+      "value": 5562,
+      "source": "NR-11"
+    },
+    "seconds": 2e-05,
+    "prompt_tokens": 563,
+    "completion_tokens": 308
+  },
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Millbrook",
+      "field": "schools"
+    },
+    "result": {
+      "district": "Millbrook",
+      "field": "schools",
+      "value": 15,
+      "source": "NR-11"
+    },
+    "seconds": 1.4e-05,
+    "prompt_tokens": 563,
+    "completion_tokens": 308
+  },
+  {
+    "round": 2,
+    "tool": "calculate",
+    "arguments": {
+      "expression": "8837/24"
+    },
+    "result": {
+      "result": 368.2083333333333
+    },
+    "seconds": 9.7e-05,
+    "prompt_tokens": 1024,
+    "completion_tokens": 107
+  },
+  {
+    "round": 2,
+    "tool": "calculate",
+    "arguments": {
+      "expression": "5562/15"
+    },
+    "result": {
+      "result": 370.8
+    },
+    "seconds": 3.1e-05,
+    "prompt_tokens": 1024,
+    "completion_tokens": 107
+  },
+  {
+    "round": 3,
+    "tool": "calculate",
+    "arguments": {
+      "expression": "5562/15 - 8837/24"
+    },
+    "result": {
+      "result": 2.591666666666697
+    },
+    "seconds": 0.000115,
+    "prompt_tokens": 1168,
+    "completion_tokens": 101
+  }
+]

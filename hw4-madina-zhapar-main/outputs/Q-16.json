@@ -1,0 +1,66 @@
+[
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Ossbridge",
+      "field": "area"
+    },
+    "result": {
+      "district": "Ossbridge",
+      "field": "area",
+      "value": 1284.6,
+      "source": "NR-01"
+    },
+    "seconds": 4.1e-05,
+    "prompt_tokens": 563,
+    "completion_tokens": 181
+  },
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Ossford",
+      "field": "area"
+    },
+    "result": {
+      "district": "Ossford",
+      "field": "area",
+      "value": 846.2,
+      "source": "NR-02"
+    },
+    "seconds": 1.7e-05,
+    "prompt_tokens": 563,
+    "completion_tokens": 181
+  },
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Tarnvale",
+      "field": "area"
+    },
+    "result": {
+      "district": "Tarnvale",
+      "field": "area",
+      "value": 2106.9,
+      "source": "NR-03"
+    },
+    "seconds": 1.5e-05,
+    "prompt_tokens": 563,
+    "completion_tokens": 181
+  },
+  {
+    "round": 2,
+    "tool": "calculate",
+    "arguments": {
+      "expression": "1284.6 + 846.2 - 2106.9"
+    },
+    "result": {
+      "result": 23.90000000000009
+    },
+    "seconds": 0.000104,
+    "prompt_tokens": 863,
+    "completion_tokens": 112
+  }
+]

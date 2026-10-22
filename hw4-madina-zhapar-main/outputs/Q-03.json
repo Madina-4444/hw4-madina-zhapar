@@ -1,0 +1,70 @@
+[
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Lindenmoor",
+      "field": "water_use"
+    },
+    "result": {
+      "district": "Lindenmoor",
+      "field": "water_use",
+      "value": 2151.4,
+      "source": "NR-08"
+    },
+    "seconds": 0.000232,
+    "prompt_tokens": 559,
+    "completion_tokens": 275
+  },
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Kelmarsh",
+      "field": "water_use"
+    },
+    "result": {
+      "district": "Kelmarsh",
+      "field": "water_use",
+      "value": 1739.0,
+      "source": "NR-04"
+    },
+    "seconds": 0.000154,
+    "prompt_tokens": 559,
+    "completion_tokens": 275
+  },
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Lindenmoor",
+      "field": "population_2025"
+    },
+    "result": {
+      "district": "Lindenmoor",
+      "field": "population_2025",
+      "value": 29051,
+      "source": "NR-08"
+    },
+    "seconds": 2.4e-05,
+    "prompt_tokens": 559,
+    "completion_tokens": 275
+  },
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Kelmarsh",
+      "field": "population_2025"
+    },
+    "result": {
+      "district": "Kelmarsh",
+      "field": "population_2025",
+      "value": 24117,
+      "source": "NR-04"
+    },
+    "seconds": 1.2e-05,
+    "prompt_tokens": 559,
+    "completion_tokens": 275
+  }
+]

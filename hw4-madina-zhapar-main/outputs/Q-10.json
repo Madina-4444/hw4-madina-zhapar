@@ -1,0 +1,49 @@
+[
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Stonecairn",
+      "field": "founded"
+    },
+    "result": {
+      "district": "Stonecairn",
+      "field": "founded",
+      "value": 1837,
+      "source": "NR-06"
+    },
+    "seconds": 0.000197,
+    "prompt_tokens": 560,
+    "completion_tokens": 141
+  },
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Coldharbour",
+      "field": "founded"
+    },
+    "result": {
+      "district": "Coldharbour",
+      "field": "founded",
+      "value": 1845,
+      "source": "NR-12"
+    },
+    "seconds": 3.3e-05,
+    "prompt_tokens": 560,
+    "completion_tokens": 141
+  },
+  {
+    "round": 2,
+    "tool": "calculate",
+    "arguments": {
+      "expression": "1845 - 1837"
+    },
+    "result": {
+      "result": 8
+    },
+    "seconds": 9.6e-05,
+    "prompt_tokens": 782,
+    "completion_tokens": 91
+  }
+]

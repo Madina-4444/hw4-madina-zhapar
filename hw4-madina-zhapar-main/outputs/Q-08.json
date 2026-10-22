@@ -1,0 +1,87 @@
+[
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Brightwater",
+      "field": "water_tariff"
+    },
+    "result": {
+      "district": "Brightwater",
+      "field": "water_tariff",
+      "value": 142.35,
+      "source": "NR-15"
+    },
+    "seconds": 0.000215,
+    "prompt_tokens": 560,
+    "completion_tokens": 500
+  },
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Millbrook",
+      "field": "water_tariff"
+    },
+    "result": {
+      "district": "Millbrook",
+      "field": "water_tariff",
+      "value": 142.35,
+      "source": "NR-15"
+    },
+    "seconds": 1.9e-05,
+    "prompt_tokens": 560,
+    "completion_tokens": 500
+  },
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Brightwater",
+      "field": "water_use"
+    },
+    "result": {
+      "district": "Brightwater",
+      "field": "water_use",
+      "value": 3315.0,
+      "source": "NR-05"
+    },
+    "seconds": 7.4e-05,
+    "prompt_tokens": 560,
+    "completion_tokens": 500
+  },
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Millbrook",
+      "field": "water_use"
+    },
+    "result": {
+      "district": "Millbrook",
+      "field": "water_use",
+      "value": 2806.0,
+      "source": "NR-11"
+    },
+    "seconds": 3.5e-05,
+    "prompt_tokens": 560,
+    "completion_tokens": 500
+  },
+  {
+    "round": 1,
+    "tool": "lookup",
+    "arguments": {
+      "district": "Brightwater",
+      "field": "population_2025"
+    },
+    "result": {
+      "district": "Brightwater",
+      "field": "population_2025",
+      "value": 44675,
+      "source": "NR-05"
+    },
+    "seconds": 2.1e-05,
+    "prompt_tokens": 560,
+    "completion_tokens": 500
+  }
+]
